@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\CMakeFiles\9f3de0eeab59f3cfc2a3e5d4e3086800\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="J:\ExternalPrograms\3dParty\assimp-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{99E149E2-64D7-3A9C-B198-92C6BC190540}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

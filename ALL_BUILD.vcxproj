@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{85DB144F-38E9-3DB3-B01D-7F96AC212D53}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\include;J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild;J:\ExternalPrograms\3dParty\assimp-master\include;J:\ExternalPrograms\3dParty\assimp-master\code;J:\ExternalPrograms\3dParty\assimp-master\.;J:\ExternalPrograms\3dParty\assimp-master\contrib\zlib;J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\include;J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild;J:\ExternalPrograms\3dParty\assimp-master\include;J:\ExternalPrograms\3dParty\assimp-master\code;J:\ExternalPrograms\3dParty\assimp-master\.;J:\ExternalPrograms\3dParty\assimp-master\contrib\zlib;J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\include;J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild;J:\ExternalPrograms\3dParty\assimp-master\include;J:\ExternalPrograms\3dParty\assimp-master\code;J:\ExternalPrograms\3dParty\assimp-master\.;J:\ExternalPrograms\3dParty\assimp-master\contrib\zlib;J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\include;J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild;J:\ExternalPrograms\3dParty\assimp-master\include;J:\ExternalPrograms\3dParty\assimp-master\code;J:\ExternalPrograms\3dParty\assimp-master\.;J:\ExternalPrograms\3dParty\assimp-master\contrib\zlib;J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="J:\ExternalPrograms\3dParty\assimp-master\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule J:/ExternalPrograms/3dParty/assimp-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SJ:/ExternalPrograms/3dParty/assimp-master -BJ:/ExternalPrograms/3dParty/assimp-master/AssimpBuild --check-stamp-file J:/ExternalPrograms/3dParty/assimp-master/AssimpBuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\CMakeFiles\3.16.4\CMakeCCompiler.cmake;J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\CMakeFiles\3.16.4\CMakeCXXCompiler.cmake;J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\CMakeFiles\3.16.4\CMakeRCCompiler.cmake;J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\CMakeFiles\3.16.4\CMakeSystem.cmake;J:\ExternalPrograms\3dParty\assimp-master\assimp-config-version.cmake.in;J:\ExternalPrograms\3dParty\assimp-master\assimp-config.cmake.in;J:\ExternalPrograms\3dParty\assimp-master\assimp.pc.in;J:\ExternalPrograms\3dParty\assimp-master\assimpTargets-debug.cmake.in;J:\ExternalPrograms\3dParty\assimp-master\assimpTargets-release.cmake.in;J:\ExternalPrograms\3dParty\assimp-master\assimpTargets.cmake.in;J:\ExternalPrograms\3dParty\assimp-master\cmake-modules\FindDirectX.cmake;J:\ExternalPrograms\3dParty\assimp-master\cmake-modules\FindPkgMacros.cmake;J:\ExternalPrograms\3dParty\assimp-master\cmake-modules\FindZLIB.cmake;J:\ExternalPrograms\3dParty\assimp-master\cmake-modules\PrecompiledHeader.cmake;J:\ExternalPrograms\3dParty\assimp-master\cmake-modules\cmake_uninstall.cmake.in;J:\ExternalPrograms\3dParty\assimp-master\cmake\HunterGate.cmake;J:\ExternalPrograms\3dParty\assimp-master\include\assimp\config.h.in;J:\ExternalPrograms\3dParty\assimp-master\revision.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule J:/ExternalPrograms/3dParty/assimp-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SJ:/ExternalPrograms/3dParty/assimp-master -BJ:/ExternalPrograms/3dParty/assimp-master/AssimpBuild --check-stamp-file J:/ExternalPrograms/3dParty/assimp-master/AssimpBuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\CMakeFiles\3.16.4\CMakeCCompiler.cmake;J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\CMakeFiles\3.16.4\CMakeCXXCompiler.cmake;J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\CMakeFiles\3.16.4\CMakeRCCompiler.cmake;J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\CMakeFiles\3.16.4\CMakeSystem.cmake;J:\ExternalPrograms\3dParty\assimp-master\assimp-config-version.cmake.in;J:\ExternalPrograms\3dParty\assimp-master\assimp-config.cmake.in;J:\ExternalPrograms\3dParty\assimp-master\assimp.pc.in;J:\ExternalPrograms\3dParty\assimp-master\assimpTargets-debug.cmake.in;J:\ExternalPrograms\3dParty\assimp-master\assimpTargets-release.cmake.in;J:\ExternalPrograms\3dParty\assimp-master\assimpTargets.cmake.in;J:\ExternalPrograms\3dParty\assimp-master\cmake-modules\FindDirectX.cmake;J:\ExternalPrograms\3dParty\assimp-master\cmake-modules\FindPkgMacros.cmake;J:\ExternalPrograms\3dParty\assimp-master\cmake-modules\FindZLIB.cmake;J:\ExternalPrograms\3dParty\assimp-master\cmake-modules\PrecompiledHeader.cmake;J:\ExternalPrograms\3dParty\assimp-master\cmake-modules\cmake_uninstall.cmake.in;J:\ExternalPrograms\3dParty\assimp-master\cmake\HunterGate.cmake;J:\ExternalPrograms\3dParty\assimp-master\include\assimp\config.h.in;J:\ExternalPrograms\3dParty\assimp-master\revision.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule J:/ExternalPrograms/3dParty/assimp-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SJ:/ExternalPrograms/3dParty/assimp-master -BJ:/ExternalPrograms/3dParty/assimp-master/AssimpBuild --check-stamp-file J:/ExternalPrograms/3dParty/assimp-master/AssimpBuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\CMakeFiles\3.16.4\CMakeCCompiler.cmake;J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\CMakeFiles\3.16.4\CMakeCXXCompiler.cmake;J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\CMakeFiles\3.16.4\CMakeRCCompiler.cmake;J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\CMakeFiles\3.16.4\CMakeSystem.cmake;J:\ExternalPrograms\3dParty\assimp-master\assimp-config-version.cmake.in;J:\ExternalPrograms\3dParty\assimp-master\assimp-config.cmake.in;J:\ExternalPrograms\3dParty\assimp-master\assimp.pc.in;J:\ExternalPrograms\3dParty\assimp-master\assimpTargets-debug.cmake.in;J:\ExternalPrograms\3dParty\assimp-master\assimpTargets-release.cmake.in;J:\ExternalPrograms\3dParty\assimp-master\assimpTargets.cmake.in;J:\ExternalPrograms\3dParty\assimp-master\cmake-modules\FindDirectX.cmake;J:\ExternalPrograms\3dParty\assimp-master\cmake-modules\FindPkgMacros.cmake;J:\ExternalPrograms\3dParty\assimp-master\cmake-modules\FindZLIB.cmake;J:\ExternalPrograms\3dParty\assimp-master\cmake-modules\PrecompiledHeader.cmake;J:\ExternalPrograms\3dParty\assimp-master\cmake-modules\cmake_uninstall.cmake.in;J:\ExternalPrograms\3dParty\assimp-master\cmake\HunterGate.cmake;J:\ExternalPrograms\3dParty\assimp-master\include\assimp\config.h.in;J:\ExternalPrograms\3dParty\assimp-master\revision.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule J:/ExternalPrograms/3dParty/assimp-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SJ:/ExternalPrograms/3dParty/assimp-master -BJ:/ExternalPrograms/3dParty/assimp-master/AssimpBuild --check-stamp-file J:/ExternalPrograms/3dParty/assimp-master/AssimpBuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\CMakeFiles\3.16.4\CMakeCCompiler.cmake;J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\CMakeFiles\3.16.4\CMakeCXXCompiler.cmake;J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\CMakeFiles\3.16.4\CMakeRCCompiler.cmake;J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\CMakeFiles\3.16.4\CMakeSystem.cmake;J:\ExternalPrograms\3dParty\assimp-master\assimp-config-version.cmake.in;J:\ExternalPrograms\3dParty\assimp-master\assimp-config.cmake.in;J:\ExternalPrograms\3dParty\assimp-master\assimp.pc.in;J:\ExternalPrograms\3dParty\assimp-master\assimpTargets-debug.cmake.in;J:\ExternalPrograms\3dParty\assimp-master\assimpTargets-release.cmake.in;J:\ExternalPrograms\3dParty\assimp-master\assimpTargets.cmake.in;J:\ExternalPrograms\3dParty\assimp-master\cmake-modules\FindDirectX.cmake;J:\ExternalPrograms\3dParty\assimp-master\cmake-modules\FindPkgMacros.cmake;J:\ExternalPrograms\3dParty\assimp-master\cmake-modules\FindZLIB.cmake;J:\ExternalPrograms\3dParty\assimp-master\cmake-modules\PrecompiledHeader.cmake;J:\ExternalPrograms\3dParty\assimp-master\cmake-modules\cmake_uninstall.cmake.in;J:\ExternalPrograms\3dParty\assimp-master\cmake\HunterGate.cmake;J:\ExternalPrograms\3dParty\assimp-master\include\assimp\config.h.in;J:\ExternalPrograms\3dParty\assimp-master\revision.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\ZERO_CHECK.vcxproj">
+      <Project>{7AEBFE0F-9ACD-3CBD-AF47-2831E21760EB}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\contrib\irrXML\IrrXML.vcxproj">
+      <Project>{CBBFD06F-315A-3428-92A6-ECADFD5B042B}</Project>
+      <Name>IrrXML</Name>
+    </ProjectReference>
+    <ProjectReference Include="J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\code\assimp.vcxproj">
+      <Project>{309993E3-3F79-346C-84D1-148E7FB248D7}</Project>
+      <Name>assimp</Name>
+    </ProjectReference>
+    <ProjectReference Include="J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\tools\assimp_cmd\assimp_cmd.vcxproj">
+      <Project>{1687AACC-4120-30AE-B16A-196C9C2E200F}</Project>
+      <Name>assimp_cmd</Name>
+    </ProjectReference>
+    <ProjectReference Include="J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\test\unit.vcxproj">
+      <Project>{03D26C5A-A59F-3E65-815D-0C93F95E07E8}</Project>
+      <Name>unit</Name>
+    </ProjectReference>
+    <ProjectReference Include="J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\contrib\zlib\zlib.vcxproj">
+      <Project>{1C1DA20F-E736-32D3-AD15-D8B91EE7D3D2}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="J:\ExternalPrograms\3dParty\assimp-master\AssimpBuild\contrib\zlib\zlibstatic.vcxproj">
+      <Project>{982D3E09-EB01-3826-AC9C-288EB13A8BF8}</Project>
+      <Name>zlibstatic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
